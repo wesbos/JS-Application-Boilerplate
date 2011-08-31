@@ -1,4 +1,13 @@
-
+/*!
+ *
+ * JavaScript Application Boilerplate
+ * http://darcyclarke.me/development/javascript-applications-101/
+ *
+ * Copyright 2011, Darcy Clarke
+ * Do what you want license
+ * 
+ */
+ 
 /*************************************************************************/
 /* Application
 /*************************************************************************/
