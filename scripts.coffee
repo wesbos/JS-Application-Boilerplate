@@ -61,3 +61,10 @@ jQuery(window).unload ->
 	App.publish "destroy"
 	return
 
+# Based on http://paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
+# Converted to coffeescript by Wes Bos - http://wesbos.com
+window.log = ->
+	log.history = log.history or []
+	log.history.push arguments
+	console.log( Array.prototype.slice.call(arguments) ) if @console
+	return
