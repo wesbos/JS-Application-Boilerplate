@@ -1,10 +1,20 @@
 ### 
-Application
+	Application
+	
+	Inital Code by Darcy Clarke
+	Converted to CofeeScript by Wes Bos
+	
+	Do what you want License! 
+	
 ###
 App = {}
 
 # stores array of queued ajax requests
 App.queue = []
+
+# Store the URL of your application 
+
+App.url = ""
 
 # stores array of cached objects, primarily DOM selectors
 App.cache = {}

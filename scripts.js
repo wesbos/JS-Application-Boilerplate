@@ -22,6 +22,9 @@
     // stores array of cached objects, primarily DOM selectors
     App.cache = {};
     
+    // stores the url of your application
+    App.url = "";
+    
     // subscriptions
     App.subscriptions = {};
     
