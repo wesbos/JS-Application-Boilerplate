@@ -1,8 +1,8 @@
 ### 
 	Application
 	
-	Inital Code by Darcy Clarke
-	Converted to CofeeScript by Wes Bos
+	Initial Code by Darcy Clarke
+	Converted to CoffeeScript by Wes Bos
 	
 	Do what you want License! 
 	
@@ -61,7 +61,7 @@ jQuery(window).unload ->
 	App.publish "destroy"
 	return
 
-# Based on http://paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
+# Based on https://www.paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
 # Converted to coffeescript by Wes Bos - http://wesbos.com
 window.log = ->
 	log.history = log.history or []
